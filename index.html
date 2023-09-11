@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/1c52100985.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Mm-Kun - Recrutamento</title>
+</head>
+<body>
+
+
+    <div class="container container-title">
+        <div>
+            <p class="title">Recrutamento</p>
+            <p class="title-description">Faça parte da nossa equipe e nos ajude a produzir seus mangás favoritos!</p>
+            <div class="div-btn">
+                <a target="_blank" href="#" class="a-btn">
+                <button class="send">
+                    <i class="fa-brands fa-discord send-icon"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <img class="img img1" src="./assets/images/gato-1.png">
+        <img class="img img2 hide" src="./assets/images/gato-2.png">
+    </div>
+
+    <div class="container-files">
+
+        <p class="title-files">Download Arquivos</p>
+
+        <div class="files">
+
+            <a href="" class="file">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa-sharp fa-solid fa-language file-icon"></i>
+                <p class="title-file">Tradutor Inglês</p>
+            </a>
+
+            <a href="" class="file">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa-sharp fa-solid fa-language file-icon"></i>
+                <p class="title-file">Tradutor Japonês</p>
+            </a>
+
+            <a href="" class="file">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa-solid fa-paintbrush file-icon"></i>
+                <p class="title-file">Editor</p>
+            </a>
+        </div>
+    </div>
+
+    <div class="container container-doubts">
+        <p class="title-dropdown">Está com dúvidas? Olhe aqui!</p>
+        <div onclick="active(1)" class="box box1">
+            <div class="dropdown dropdown1"> 
+                <span class="left-icon"></span>
+                <span class="right-icon"></span>
+                Quais as etapas do recrutamento?
+                <div class="items  items1">
+                    <p class="item item1">1- Baixar o teste para o qual se deseja candidatar.<br>
+                                    2- Seguir as instruções do teste para realizá-lo.<br>
+                                    3- Quando concluir, envie para algum de nossos administradores no nosso <a target="_blank" class="link-dc" href="#">Discord.</a><br>
+                                    4- Aguarde o retorno para saber se foi aprovado ou não!</p>
+                </div>
+            </div>
+        </div>
+
+        <div onclick="active(2)" class="box box2">
+            <div class="dropdown dropdown2"> 
+                <span class="left-icon"></span>
+                <span class="right-icon"></span>
+                Qual o prazo para ter uma resposta do teste?
+                <div class="items items2">
+                    <p class="item">Como nossos adms trabalham e são ocupados, não existe prazo para que lhe retornem o resultado de sua aplicação. 
+                        Portanto, não adianta ficar cobrando uma resposta. Assim que algum deles tiver tempo com certeza irão avaliar e lhe responder!</p>
+                </div>
+            </div>
+        </div>
+
+        <div onclick="active(3)" class="box box3">
+            <div class="dropdown dropdown3"> 
+                <span class="left-icon"></span>
+                <span class="right-icon"></span>
+                Qual a função do Tradutor?
+                <div class="items">
+                    <p class="item">Tem a função de traduzir as falas e adaptar para que faça sentido no português.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div onclick="active(4)" class="box box4">
+            <div class="dropdown dropdown4"> 
+                <span class="left-icon"></span>
+                <span class="right-icon"></span>
+                Qual a função do Editor?
+                <div class="items">
+                    <p class="item">Limpar as falas do mangá, pegar as falas traduzidas pelo tradutor e organizar nas páginas.</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="./scripts/scroll.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
